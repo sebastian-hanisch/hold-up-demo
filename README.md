@@ -1,9 +1,8 @@
 # Hold-up: warum ein möglicher Gewinn manchmal gar nicht entsteht – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-hold-up-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-hold-up-demo.streamlit.app/)**
 
-Stück der Linie **Gemeinsam gewinnen** (Arbeitsname; Name, Bereich und Themenfeld werden erst bei der Einbindung in die Website festgelegt). Der Vorgänger in der Linie ist `kuchen-vergroessern-demo`; die Kante ist ein **Kontrast**: dort muss der Überschuss erst entstehen, hier wirkt das Teilen auf die Investition zurück, aus der er entstehen soll. Vehikel ist die Beziehung zwischen einem **Verlader** (V) und einem **Spediteur** (S): V investiert in eine Ladeschleuse mit Systemanbindung, S in Spezialfahrzeuge für genau diese Relation; beides ist außerhalb der Beziehung nichts wert. Nachbarn im Portfolio: `verhandlung-demo` (Verhandlung nach dem Ablauf abwechselnder Angebote), `vertragsdesign-demo` (Verträge bei verdecktem Handeln), `folk-theorem-demo` und `tit-for-tat-demo` (Wiederholung als Gegenmittel), `kern-demo` (Aufteilung bei mehr als zwei Seiten) und `geheimnis-verhandlung-demo` (private Werte). **Verlader, Spediteur und die Gegenmittel sind Modellannahmen, keine Aussagen über echte Verträge.**
+Stück der Linie **Gemeinsam gewinnen**. Der Vorgänger in der Linie ist `kuchen-vergroessern-demo`; die Kante ist ein **Kontrast**: dort muss der Überschuss erst entstehen, hier wirkt das Teilen auf die Investition zurück, aus der er entstehen soll. Vehikel ist die Beziehung zwischen einem **Verlader** (V) und einem **Spediteur** (S): V investiert in eine Ladeschleuse mit Systemanbindung, S in Spezialfahrzeuge für genau diese Relation; beides ist außerhalb der Beziehung nichts wert. Nachbarn im Portfolio: `verhandlung-demo` (Verhandlung nach dem Ablauf abwechselnder Angebote), `vertragsdesign-demo` (Verträge bei verdecktem Handeln), `folk-theorem-demo` und `tit-for-tat-demo` (Wiederholung als Gegenmittel), `kern-demo` (Aufteilung bei mehr als zwei Seiten) und `geheimnis-verhandlung-demo` (private Werte). **Verlader, Spediteur und die Gegenmittel sind Modellannahmen, keine Aussagen über echte Verträge.**
 
 ## Kernfrage
 
