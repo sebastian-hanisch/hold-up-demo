@@ -86,6 +86,17 @@ Weiter unten: die Kernfrage, fünf Experimente (**🔬**), **🚧 Wo die Annahme
 """
 )
 
+# erklaerseite:einfach:start (erzeugt von tools/set_demo_explainer.py (Website-Repo) aus tools/content/explainers/hold-up-erklaert.json, nicht von Hand ändern)
+with st.expander("💬 In einfachen Worten"):
+    st.markdown(
+        """
+Ein **Verlader** und ein **Spediteur** investieren, bevor sie verhandeln: hier eine Ladeschleuse mit Systemanbindung, dort Spezialfahrzeuge für genau diese Strecke. Beides ist außerhalb der Beziehung nichts wert. Den **Überschuss**, der daraus entsteht, teilen sie erst danach. Jede Seite bekommt deshalb nur einen Anteil am Ertrag ihrer Investition, bezahlt die Kosten aber allein, und im Modell investiert sie ohne Gegenmittel weniger, als für beide zusammen am besten wäre. Die Demo misst den **Wirkungsgrad**, also wie viel vom möglichen Nettogewinn wirklich entsteht, und prüft die **Gegenmittel** Eigentum, Vorab-Vertrag und Wiederholung. **Das ist ein Modellbefund unter Voraussetzungen, kein Gesetz; Verlader und Spediteur sind eine Kulisse und keine Aussage über echte Verträge.**
+
+[Ausführlich und verständlich erklärt, mit Fachteil](https://sebastianhanisch.net/hold-up-erklaert.html)
+        """
+    )
+# erklaerseite:einfach:end
+
 with st.expander("So funktioniert Hold-up", expanded=True):
     st.markdown(
         """
@@ -333,10 +344,10 @@ with st.expander("⚠️ Annahmen, Grenzen und bekannte Probleme"):
     st.markdown(ASSUMPTIONS_MARKDOWN)
 
 with st.expander("📐 Mathematische Formulierung"):
+    # erklaerseite:lesehilfe:start (erzeugt von tools/set_demo_explainer.py (Website-Repo) aus tools/content/explainers/hold-up-erklaert.json, nicht von Hand ändern)
     st.markdown(
         r"""
-**Lesehilfe.** Gegeben sind die Regler (θ, γ, κ, a und die Gegenmittel). Gesucht sind die Investitionen $x_V, x_S$ im Gleichgewicht, ihr Netto und der Wirkungsgrad
-gegenüber dem gemeinsamen Optimum.
+**Lesehilfe.** Gegeben sind die Regler (θ, γ, κ, a und die Gegenmittel). Gesucht sind die Investitionen $x_V, x_S$ im Gleichgewicht, ihr Netto und der Wirkungsgrad gegenüber dem gemeinsamen Optimum.
 
 | Symbol | Bedeutung |
 |---|---|
@@ -354,6 +365,12 @@ gegenüber dem gemeinsamen Optimum.
 | $\delta$ | Diskontfaktor der Wiederholung |
 | $R_i, T_i, P_i$ | Auszahlung von Seite $i$ bei effizienter Investition beider, bei bester einseitiger Abweichung, im Gleichgewicht des Einmalspiels |
 
+[Schritt für Schritt erklärt, mit Herleitung und Literatur](https://sebastianhanisch.net/hold-up-erklaert.html#fachleute)
+        """
+    )
+    # erklaerseite:lesehilfe:end
+    st.markdown(
+        r"""
 **Beiträge und Überschuss.**
 
 $$A = a\,x_V, \qquad B = x_S$$
